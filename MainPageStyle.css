@@ -16,6 +16,9 @@ color of search : #e9ecef
 span {
     font-family: 'Hina Mincho', serif;
 }
+h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /*------------- NAV BAR ------------------------*/
 
 .nav-bar {
