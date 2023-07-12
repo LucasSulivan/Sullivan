@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+color of search : #e9ecef
+
+
+*/
+
+
+/*-------------- MAIN PAGE -----------------------*/
+
+
+/*------------- NAV BAR ------------------------*/
+
+.nav-bar {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #FFC078;
+}
+
+.mark-name {
+
+}
+.search-input {
+    background-color: #e9ecef;
+    border: none;
+    width: 7rem;
+    height: 1.2rem;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+/*---------------- CONTENT MAIN PAGE---------------------*/
+
+.background-img-main {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-men-woman {
+    margin: 1rem;
+    font-size: 0.9rem ;
+    display: flex;
+    gap: 1rem;
+}
+
+.offers-letter {
+    border-bottom: 1px solid black;
+
+    font-size: 1.5rem;
+}
+.offers {
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+/*-----------------BISNESS MEN SECTION--------------------------*/
+
+.main-page-business {
+
+}
+.usiness-content {
+
+}
+.title-main-page {
+
+}
+.btn-main-page {
+    
+}
