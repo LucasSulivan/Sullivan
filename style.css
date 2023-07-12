@@ -13,31 +13,67 @@ color of search : #e9ecef
 
 /*-------------- MAIN PAGE -----------------------*/
 
-
+span {
+    font-family: 'Hina Mincho', serif;
+}
 /*------------- NAV BAR ------------------------*/
 
 .nav-bar {
     font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.8rem;
     border-bottom: 1px solid #FFC078;
 }
 
 .mark-name {
+    font-size: 1rem;
+    font-family: 'Great Vibes';
 
 }
 .search-input {
+    padding: 0.8rem 1rem;
     background-color: #e9ecef;
     border: none;
     width: 7rem;
     height: 1.2rem;
 }
-.nav-link {
-    color: black;
-    text-decoration: none;
-}
-
+a {
+    background-image: linear-gradient(
+      to right,
+      #FFC078,
+      #FFC078 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: '';
+    background: #FFC078;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  }
 /*---------------- CONTENT MAIN PAGE---------------------*/
 
 .background-img-main {
@@ -66,6 +102,7 @@ color of search : #e9ecef
     font-size: 1.5rem;
 }
 .offers {
+    margin-top: 5rem;
     position: absolute;
     align-self: flex-end;
     margin-right: 1rem;
@@ -103,12 +140,10 @@ color of search : #e9ecef
     text-align: center;
     width: 250px;
     cursor: pointer;
-}
-.btn-main-page {
     color: #000000;
     transition: all 0.3s;
     position: relative;
-  }
+}
   .btn-main-page span {
     font-size: 1.5rem;
     transition: all 0.3s;
