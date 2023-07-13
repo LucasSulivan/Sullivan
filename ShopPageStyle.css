@@ -10,7 +10,7 @@ span {
     font-family: 'Hina Mincho', serif;
 }
 h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'KoHo', sans-serif;
 }
 
 /*----------- Nav bar-------------------*/
@@ -186,3 +186,30 @@ a {
     margin-bottom: 3rem;
   }
 }
+
+  /*--------------  Desktop 1024px-------------------------*/
+
+  @media screen and (min-width: 1024px) {
+    .title-section {
+      font-size: 1.6rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+    }
+    .description-product {
+      gap: 2rem;
+    }
+    .img {
+      padding: 2.5rem;
+    }
+    .nav-bar {
+      font-size: 1.5rem;
+
+    }
+    .mark-name {
+      margin-left: 1rem;
+      font-size: 2.3rem;
+    }
+  }
+
+
