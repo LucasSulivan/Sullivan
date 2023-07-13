@@ -158,3 +158,18 @@ input {
 h1 {
     margin: 3rem 0;
 }
+  /*-------------- TABLETS 768px-------------------------*/
+
+  @media screen and (min-width:768px) {
+    .mark-name {
+      font-size: 1.6rem;
+    }
+    .nav-bar {
+      font-size: 1.1rem;
+    }
+    .search-input {
+      padding: 1rem 10rem;
+      background-color: #e9ecef;
+      border: none;
+    }
+}
