@@ -212,4 +212,18 @@ a {
     }
   }
 
+    /*--------------  Desktop 1440px-------------------------*/
+  @media screen and (min-width: 1440px){
+    .nav-bar {
+      font-size: 2rem;
+    }
+    .nav-link span {
+      margin-right: 5rem;
+    }
+    .search-input {
+      padding: 1.5rem 13rem;
+      
+    }
+  }
+
 
