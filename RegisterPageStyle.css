@@ -9,8 +9,8 @@
 span {
     font-family: 'Hina Mincho', serif;
 }
-h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 , label {
+  font-family: 'KoHo', sans-serif;
 }
 
 /*----------- Nav bar-------------------*/
@@ -171,5 +171,32 @@ h1 {
       padding: 1rem 10rem;
       background-color: #e9ecef;
       border: none;
+    }
+}
+  /*-------------- Desktops 1024px-------------------------*/
+
+  @media screen and (min-width:1024px) {
+    .mark-name {
+      font-size: 2.5rem;
+    }
+    .nav-bar {
+      font-size: 1.7rem;
+    }
+    .search-input {
+      padding: 1rem 10rem;
+      background-color: #e9ecef;
+      border: none;
+    }
+    label {
+      font-size: 1rem;
+    }
+    input {
+      padding: 0.8rem 13rem;
+    }
+    .register-btn {
+      width: 16rem;
+    }
+    .nav-link span {
+      margin-right: 2rem;
     }
 }
