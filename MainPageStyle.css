@@ -123,6 +123,9 @@ a {
     position: relative;
     width: 100%;
 }
+.img-main-executive-two {
+  display: none;
+}
 .business-content {
     display: flex;
     align-items: center;
@@ -187,6 +190,12 @@ a {
     opacity: 0; 
     transform: scale(0.1, 1);
   }
+  .desktop-page-business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem
+  }
 
 /*------------------MAIN PAGE STREET ---------------------*/
 
@@ -199,6 +208,9 @@ a {
     padding: 1rem 1rem 0 1rem;
     position: relative;
     width: 100%;
+}
+.img-main-street-two {
+  display: none;
 }
 .street-content {
     display: flex;
@@ -213,4 +225,100 @@ a {
   border-left: 1px solid black ;
   border-right: 1px solid black;
   border-top: 1px solid black;
+}
+.desktop-page-street {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem
+}
+
+/*--------------------- TABLET 768px ---------------------*/
+@media screen and (min-width: 768px) {
+  .forDesktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-page {
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .mark-name {
+    font-size: 1.6rem;
+  }
+
+  .nav-bar {
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    border: none;
+    position: absolute;
+    width: 100%;
+  }
+  .search-input {
+    display: none;
+  }
+  .select-men-woman {
+    font-size: 1.5rem;
+    transform: translate(19rem,3rem);
+    position: absolute;
+  }
+
+  .offers-letter {
+    
+    font-size: 3rem;
+  }
+  .offers {
+    transform: translate(-5rem,6rem);
+  }
+  .business-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+  .main-page-business {
+    grid-column-start:1 ;
+    grid-column-end: 3;
+  }
+  .img-main-executive {
+    width: 50%;
+  }
+  .img-main-executive-two {
+    margin-bottom: 1.5rem;
+    align-self:flex-start;
+    display:block;
+    width: 100%;
+    height: 21rem;
+  }
+  .desktop-page-business {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  /*-------STREET------------*/
+  .main-page-street {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top: 1px solid rgba(255, 181, 43, 0.288);
+  }
+  .street-content {
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+    
+  }
+  .desktop-page-street {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-main-street {
+    padding: 0 1rem 0 0;
+    width: 100%;
+  }
+  .img-main-street-two {
+    display: block;
+    width: 70%;
+  }
 }
