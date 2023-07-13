@@ -379,3 +379,14 @@ a {
     height: 58rem;
   }
 }
+
+/*--------------------- Desktop 1620px ---------------------*/
+@media screen and (min-width: 1620px) {
+  .select-men-woman {
+    transform: translate(47rem,5rem);
+
+  }
+  .offers {
+    transform: translate(-19rem,16rem);
+  }
+}
