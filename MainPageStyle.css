@@ -361,3 +361,21 @@ a {
     width: 89%;
   }
 }
+
+
+/*--------------------- Desktop 1440px ---------------------*/
+
+@media screen and (min-width:1440px) {
+  .mark-name {
+    margin: 0;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .select-men-woman {
+    transform: translate(39rem,5rem);
+  }
+  .img-main-executive-two {
+    height: 58rem;
+  }
+}
