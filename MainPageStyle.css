@@ -80,7 +80,6 @@ a {
 /*---------------- CONTENT MAIN PAGE---------------------*/
 
 .background-img-main {
-
     width: 100%;
     z-index: -1;
 }
@@ -237,6 +236,15 @@ a {
 
 
 @media screen and (min-width: 768px) {
+
+  .background-img-main {
+    display: none;
+  }
+  .background-img-laptops {
+    background-image: url(/Photos/Background-700px.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
   .forDesktop {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -263,16 +271,15 @@ a {
   }
   .select-men-woman {
     font-size: 1.5rem;
-    transform: translate(19rem,3rem);
+    transform: translate(4rem,3rem);
     position: absolute;
   }
 
   .offers-letter {
-    
     font-size: 3rem;
   }
   .offers {
-    transform: translate(-5rem,6rem);
+    transform: translate(-1rem,10rem);
   }
   .business-content {
   margin-top: 2rem;
@@ -328,6 +335,9 @@ a {
 /*--------------------- Desktop 1024px ---------------------*/
 
 @media screen and (min-width:1024px) {
+  .background-img-main {
+    display: none;
+  }
   .nav-bar {
     justify-content: space-between;
     font-size: 2rem;
@@ -338,13 +348,13 @@ a {
   }
   .select-men-woman {
     font-size: 2.2rem;
-    transform: translate(25rem,4rem);
+    transform: translate(2rem,4rem);
   }
   .offers-letter {
     font-size: 4rem;
   }
   .offers {
-    transform: translate(-8rem,8rem);
+    transform: translate(-2rem,8rem);
   }
   .business-content {
     gap:0;
@@ -360,12 +370,25 @@ a {
   .img-main-street-two {
     width: 89%;
   }
+  .nav-sign {
+    margin-right: 4rem;
+  }
 }
 
 
 /*--------------------- Desktop 1440px ---------------------*/
 
 @media screen and (min-width:1440px) {
+  .background-img-main {
+    display: none;
+  }
+  .background-img-laptops {
+    background-image: url(/Photos/Background-800px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
   .mark-name {
     margin: 0;
   }
@@ -373,20 +396,27 @@ a {
     justify-content: space-evenly;
   }
   .select-men-woman {
-    transform: translate(39rem,5rem);
+    transform: translate(15rem,5rem);
   }
   .img-main-executive-two {
     height: 58rem;
   }
+
 }
 
-/*--------------------- Desktop 1620px ---------------------*/
-@media screen and (min-width: 1620px) {
+/*--------------------- Desktop 1680px ---------------------*/
+@media screen and (min-width: 1680px) {
+  .nav-bar {
+    justify-content:space-between;
+  }
+  .background-img-main {
+    display: none;
+  }
   .select-men-woman {
-    transform: translate(47rem,5rem);
+    transform: translate(18rem,0rem);
 
   }
   .offers {
-    transform: translate(-19rem,16rem);
+    transform: translate(-7rem,16rem);
   }
 }
